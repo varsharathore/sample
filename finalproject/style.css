@@ -1,22 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body{
+    background-color: papayawhip;
+}
 h1{
     color: #f00;
     background-color: papayawhip;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
+    font-family: 'Pangolin', cursive;
+    font-size: 48px;
+    font-variant: small-caps;
 }
 nav{
     text-align: right;
     background-color: rgb(188, 212, 231);
     font-size: x-large;
     font-family: cursive;
+    font-variant: small-caps;
 }
 h2{
     background-color: rgb(200, 245, 133);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 32px;
     color: rgb(2, 85, 50);
+    font-variant: small-caps;
 }
 section{
-    font-size: 24px;
+    font-size: 22px;
 }
+footer{
+    background-color: papayawhip;
+    color: red;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+details{
+    font-style: oblique;
+
+}
+summary{
+    font-style: normal;
+}
+

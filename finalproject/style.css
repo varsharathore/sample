@@ -11,6 +11,14 @@ h1{
     font-size: 48px;
     font-variant: small-caps;
 }
+header{
+    text-align: right;
+    font-size: x-large;
+    font-variant: small-caps;
+    display: block;
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
 nav{
     text-align: right;
     background-color: rgb(188, 212, 231);
@@ -27,12 +35,17 @@ h2{
 }
 section{
     font-size: 22px;
+    width: 30%;
+    display: inline-block;
+    float: left;
+    margin: 10px;
 }
 footer{
     background-color: papayawhip;
     color: red;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    clear: both;
 }
 details{
     font-style: oblique;
@@ -40,5 +53,9 @@ details{
 }
 summary{
     font-style: normal;
+}
+img{
+    width: 10%;
+    height: 10% ;
 }
 
